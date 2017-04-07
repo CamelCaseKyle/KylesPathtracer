@@ -1,0 +1,6 @@
+This is a very basic general forward solution for the rendering problem. 
+It started life on Shadertoy so all the computation is done in the fragment shader (ouch!)
+The goal is to get as many features as I can to naturally arise out of it.
+For example, when I added the BTDF to regions of participating media I get SSS, Volume Caustics, etc
+What's also cool is how easy it is to implement a metamaterial like a retro-reflector or a nonlinear material.
+Recently it was upgraded to use Constructive Solid Geometry to represent shapes
