@@ -707,13 +707,8 @@ vec4 render(in vec2 fragCoord, in vec2 iResolution, in int iFrame, in sampler2D 
             ivec3 s = seed(iFrame*iFrame, b, ivec2(fragCoord.xy*iResolution.yx));
             // do biased sampling
             if (biased) {
-#ifdef USE_MIS
                 // multiple importance sample lights and surfaces
                 smp += MIS(hl, hn, ho, s);
-#else
-                // sample every contribution
-                smp += sampleAll(hl, hn, ho, s);
-#endif
                 outp += rc * smp;
             } else {
                 // unbiased sampling (GT)
