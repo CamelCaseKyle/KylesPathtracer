@@ -1,5 +1,4 @@
 #version 330 core
-
 precision highp int;
 precision highp float;
 
@@ -16,7 +15,7 @@ uniform sampler2D iChannel2;
 uniform sampler2D iChannel3;
 uniform vec2 iResolution;
 uniform int iFrame;
-uniform float iGlobalTime;
+uniform float iTime;
 uniform vec3 loc;
 uniform vec3 vel;
 uniform vec3 iMouse;

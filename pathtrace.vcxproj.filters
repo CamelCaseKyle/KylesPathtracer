@@ -34,8 +34,11 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="pathtrace.frag" />
+    <None Include="diffuse.frag" />
     <None Include="passthrough.vert" />
     <None Include="passthrough.frag" />
+    <None Include="geometry.frag" />
+    <None Include="common.glsl" />
+    <None Include="specular.frag" />
   </ItemGroup>
 </Project>
