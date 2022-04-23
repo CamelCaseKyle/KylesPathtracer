@@ -1,3 +1,5 @@
+![shadertoy.com/users/kylblz](https://www.shadertoy.com/media/shaders/7lSyDc.jpg)
+
 This is a very basic real-time forward path tracer with MIS and reprojection.
 It started life on Shadertoy so all the computation is done in the fragment shader (ouch!)
 
@@ -18,4 +20,4 @@ ChangeLog
 -Implemented MIS (naive)
 -Seperated geometric and probabilistic calculations
 
-shadertoy.com/users/kylblz
+https://www.shadertoy.com/users/kylblz
