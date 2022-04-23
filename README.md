@@ -8,31 +8,31 @@ It started life on Shadertoy so all the computation is done in the fragment shad
 
 TODO:
 
--probabilistic differentials over surface normal
+	-probabilistic differentials over surface normal
 
--G buffer smoothing
+	-G buffer smoothing
 
--Volumetric reprojection (participating media)
+	-Volumetric reprojection (participating media)
 
--Bidirectional path tracing (participating media)
+	-Bidirectional path tracing (participating media)
 
 
 ChangeLog
+        
+	-Dynamic temporal smoothing
 
--Dynamic temporal smoothing
+	-Better noise algorithm with parameterized R2
 
--Better noise algorithm with parameterized R2
+	-Specular reprojection
 
--Specular reprojection
+	-Diffuse reprojection
 
--Diffuse reprojection
+	-Better noise algorithm with PCG
 
--Better noise algorithm with PCG
+	-Low Discrepency sampling with R2 sequence (naive)
 
--Low Discrepency sampling with R2 sequence (naive)
+	-More physically realistic PDFs
 
--More physically realistic PDFs
+	-Implemented MIS (naive)
 
--Implemented MIS (naive)
-
--Seperated geometric and probabilistic calculations
+	-Seperated geometric and probabilistic calculations
